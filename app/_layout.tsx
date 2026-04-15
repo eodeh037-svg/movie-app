@@ -13,7 +13,7 @@ export default function Layout() {
         />
         <Stack.Screen
         name="welcomescreen"
-    
+    options={{headerShown:false}}
         />
       </Stack>
     </SafeAreaProvider>

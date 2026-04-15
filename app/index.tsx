@@ -3,6 +3,7 @@ import {
   Text,
   TouchableOpacity,
   TextInput,
+  StatusBar,
   FlatList,
   Image,
   ActivityIndicator,
@@ -127,7 +128,7 @@ export default function Index() {
     contentContainerStyle={{ paddingTop: 40, paddingHorizontal: 16, paddingBottom: 50 }}
     showsVerticalScrollIndicator={false}
   >
-
+<StatusBar barStyle="light-content" backgroundColor="black" />
     {/* 🔥 Header */}
     <Text className="text-red-600 text-3xl font-bold mb-4">
       MovieFlix
