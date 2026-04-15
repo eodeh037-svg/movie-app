@@ -6,13 +6,13 @@ import { Stack } from 'expo-router';
 export default function Layout() {
   return (
     <SafeAreaProvider>
-      <Stack>
+      <Stack initialRouteName='welcomescreen'>
         <Stack.Screen
         name='index'
         options={{headerShown:false}}
         />
         <Stack.Screen
-        name="[id]"
+        name="welcomescreen"
     
         />
       </Stack>
