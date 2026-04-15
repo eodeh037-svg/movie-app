@@ -48,12 +48,13 @@ export default function MovieDetails() {
 
   return (
     <>
-      {/* 🔥 Navigation Header Title */}
+
       <Stack.Screen
         options={{
           title: movie?.Title || "Movie Details",
           headerStyle: { backgroundColor: "#000" },
           headerTintColor: "#facc15",
+          
         }}
       />
 
